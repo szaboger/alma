@@ -45,19 +45,19 @@
     <form>
         <div class="form-group">
           <label for="exampleFormControlInput1">E-mail cím</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="név@példa.com">
+          <input type="email" class="form-control" id="emailrendeles" placeholder="név@példa.com">
         </div>
         <div class="form-group">
             <label for="exampleFormControlTextarea1">Név</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+            <textarea class="form-control" id="nevrendeles" rows="1"></textarea>
           </div>
           <div class="form-group">
             <label for="exampleFormControlTextarea1">Lakcím</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+            <textarea class="form-control" id="lakcimrendeles" rows="1"></textarea>
           </div>
         <div class="form-group">
           <label for="exampleFormControlSelect1">Darabszám</label>
-          <select class="form-control" id="exampleFormControlSelect1">
+          <select class="form-control" id="darabszamrendeles">
             <option>1</option>
             <option>2</option>
             <option>3</option>
@@ -67,7 +67,7 @@
         </div>
         <div class="form-group">
           <label for="exampleFormControlSelect1">Hamburger</label>
-          <select class="form-control" id="exampleFormControlSelect1">
+          <select class="form-control" id="hamburgerrendeles">
             <option>Classic</option>
             <option>Bacon</option>
             <option>Pipi</option>
@@ -80,7 +80,7 @@
         </div>
         <div class="form-group">
           <label for="exampleFormControlSelect1">Extra feltét</label>
-          <select class="form-control" id="exampleFormControlSelect1">
+          <select class="form-control" id="extrafeltet">
             <option>Sajt</option>
             <option>Bacon</option>
             <option>Szárított hagyma</option>
@@ -93,12 +93,12 @@
         </div>
         <div class="form-group">
           <label for="exampleFormControlTextarea1">Megjegyzés</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <textarea class="form-control" id="rendelesmegjegyzes" rows="3"></textarea>
         </div>
-        <button type="submit" class="btn btn-success">Rendelés leadása</button>
+        <button type="submit" class="btn btn-primary" onclick="getInfo2()" >Rendelés leadása</button>
         Rendelés összege: 2100
       </form>
+      <script src="order.js"></script>
       
-    
 </body>
 </html>
