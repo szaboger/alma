@@ -22,3 +22,19 @@ form
     width: 23em;
     
 }
+.center {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+  }
+  .centre {
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 70%;
+   }
+p.ex1 {display: none;}
+p.ex2 {display: inline;}
+p.ex3 {display: block;}
+p.ex4 {display: inline-block;}
