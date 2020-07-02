@@ -47,15 +47,15 @@
           
         </div>
       </nav>
-      <form>
+      <form action="action3.php" method="post">
         <div class="form-group" >
           <label for="exmpleInputEmail1">E-mail cím</label>
-          <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="emaillogin">
           
         </div>
         <div class="form-group">
           <label for="exampleInputPassword1">Jelszó</label>
-          <input type="password" class="form-control" id="password">
+          <input type="password" class="form-control" id="password" name="password">
           <small id="emailHelp" class="form-text text-muted">Sose osszuk meg mással jelszavát.</small>
           
         </div>
@@ -63,7 +63,7 @@
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="exampleCheck1">Bejelentkezve maradok</label>
         </div>
-        <div><button type="button" class="btn btn-primary" onclick="getInfo()">Bejelentkezés </button></div>
+        <input type="submit" value="Bejelentkezés" class="btn btn-primary">
         <div>Még nem regisztrált?</div>
         <a  href="Regisztráció.html" type="button" class="btn btn-primary">Regisztráció </a>
         

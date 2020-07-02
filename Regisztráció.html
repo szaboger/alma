@@ -47,21 +47,21 @@
           
         </div>
       </nav>
-    <form>
+    <form action="action4.php" method="post">
         <div class="form-group">
           <label for="exampleFormControlInput1">E-mail cím</label>
-          <input type="email" class="form-control" id="emailreg" placeholder="név@példa.com">
+          <input type="email" class="form-control" id="emailreg" name="emailreg" placeholder="név@példa.com">
         </div>
         <div class="form-group">
             <label for="exampleFormControlInput1">Jelszó</label>
-            <input type="password" class="form-control" id="passwordreg" >
+            <input type="password" class="form-control" id="passwordreg" name="passwordreg" >
           </div>
           <div class="form-group">
             <label for="exampleFormControlInput1">Jelszó mégegyszer</label>
-            <input type="password" class="form-control" id="passwordagain" >
+            <input type="password" class="form-control" id="passwordagain" name="passwordagain" >
           </div>
         
-          <button type="button" class="btn btn-primary" onclick="getInfo3()" >Regisztráció</button>
+          <input type="submit" value="Regisztráció" class="btn btn-primary">
       </form>
       <script src="registration.js"></script>
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
